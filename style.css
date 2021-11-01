@@ -1,0 +1,274 @@
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .closebtn:hover {
+        color: black;
+    }
+
+
+
+
+
+
+
+
+#background_overlay {
+    background: url(/images/bg-banner.jpg) center center no-repeat scroll rgba(0, 0, 0, 0);
+    background-image: url(/images/bg-banner.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 375px;
+    left: 0px;
+    position: absolute;
+    top: 186px;
+    width: 100%;
+    z-index: -2;
+}
+
+
+body {
+    background: url("background.jpg") repeat-x scroll 0 0 #fff;
+    color: #555;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom:20px;
+      /* Extra small devices (phones, less than 768px) */
+  font-size: 17px;
+ 
+}
+p {
+padding-top: 10px;
+padding-bottom:20px;
+font-size: 20px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+@media (max-width: 325px) {
+    h1{font-size: 12px;
+    padding-top: 6px;}
+  }
+
+@media (min-width: 567px) {
+    h1{font-size: 18px;
+    padding-top: 8px;}
+  }
+
+@media (min-width: 638px) {
+    h1{font-size: 20px;
+    padding-top: 8px;}
+  }
+
+@media (min-width: 674px) {
+    h1{font-size: 20px;
+    padding-top: 20px;}
+  }
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    h1{font-size: 25px;
+    padding-top: 20px;}
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    h1{font-size: 35px;
+    padding-top: 20px;}
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    h1{font-size: 50px;
+    padding-top: 30px;}
+  }
+    
+img {width:100%;
+}
+
+.pad{ padding-bottom:10px;}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ 
+ #down {
+  margin-top: 0%;
+  padding-bottom: 0%;
+  margin-left: auto;
+  margin-right: auto
+ } 
+
+ /*Floating Back-To-Top Button*/
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 20px;
+        
+        max-width: 55px;
+        width: 100%;
+        font-size: 30px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: #A8302F;
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #B99652;
+    }
+ 
+/*footer css*/
+.footer {
+  padding: 2em 0em;
+  background:#F7F7F7;
+  border: 1px solid #000;
+  padding-right: 20px;
+  padding-left: 20px; 
+  
+}
+.ftr-grid h3 {
+  font-size: 2em;
+  color:#A8302F;
+  margin: 0em 0em 0.4em 0em;
+  font-family: 'Baumans', cursive;
+}
+.ftr-grid p {
+  font-size: 0.95em;
+  color: #000;
+  line-height: 1.8em;
+}
+.ftr-grid ul {
+  padding: 0em;
+  list-style: none;
+}
+.ftr-grid ul li {
+  margin: 0em 0em 0.5em 0em;
+}
+.ftr-grid ul li a {
+  font-size: 0.95em;
+  color: #000;
+  /* background: url(../images/right-arrow.png)no-repeat 0px 4px; */
+  padding: 0em 0em 0em 1.5em;
+}
+.ftr-grid ul li a:hover {
+   text-decoration:none;
+   color:#A8302F;
+}
+
+.copy-right {
+  text-align: center;
+  padding: 3em 0em 0em 0em;
+}
+.copy-right p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #000;
+}
+
+.copy-right p a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/*Img*/
+.Img {
+  border: 2px solid #B99652;
+  border-radius: 4px;
+  max-width: 300px;
+  width: 50%;
+  margin: 15px 15px 0px 18px;
+  float: left;
+
+}
+
+.text-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.musicHeading{
+    display: inline-block;
+    width: 70%;
+}
+
+#musiclist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#title{
+    color: blue;
+    font-weight: bold;
+}
+
+#musicList article{
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background: #eee;
+    margin: 1em;
+    padding: 1em;
+    border: solid black thin;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #777;
+    
+}
+
